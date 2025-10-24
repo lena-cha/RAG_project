@@ -1,0 +1,17 @@
+openai
+datasets
+langchain_core
+langchain_community
+langchain_openai
+pandas
+langchain_experimental
+dotenv
+pdfminer.six
+streamlit
+faiss-cpu
+streamlit
+plotly
+folium
+streamlit_folium
+langchain-text-splitters
+tiktoken

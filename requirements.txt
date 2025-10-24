@@ -1,0 +1,6 @@
+# Root requirements for Streamlit Cloud
+# Delegates install to the app-specific requirements to avoid duplication
+-r "03. Streamlit/requirements.txt"
+
+
+
