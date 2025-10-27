@@ -18,7 +18,7 @@ from langchain_community.vectorstores import FAISS
 # Page & Theme
 # ----------------------------
 st.set_page_config(
-    page_title="AI in South Korea 🇰🇷 OpenAI’s Economic Blueprint RAG Chat-bot",
+    page_title="OpenAI’s Economic Blueprint RAG Chat-bot",
     page_icon="📌",
     layout="wide",
 )
@@ -44,7 +44,7 @@ st.markdown(
 st.markdown(
     """
 <div class="app-title">
-  <span style="font-size:26px">[AI in South Korea] OpenAI’s Economic Blueprint RAG Chat-bot</span>
+  <span style="font-size:26px"> OpenAI’s Economic Blueprint RAG Chat-bot</span>
   <span class="pill">LangChain · FAISS · OpenAI</span>
 </div>
 """,
