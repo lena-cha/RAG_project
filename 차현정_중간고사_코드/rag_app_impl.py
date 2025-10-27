@@ -18,7 +18,7 @@ from langchain_community.vectorstores import FAISS
 # Page & Theme
 # ----------------------------
 st.set_page_config(
-    page_title="[AI in South Korea] OpenAI’s Economic Blueprint RAG Chat-bot",
+    page_title="AI in South Korea 🇰🇷 OpenAI’s Economic Blueprint RAG Chat-bot",
     page_icon="📌",
     layout="wide",
 )
@@ -176,14 +176,6 @@ with st.sidebar:
 
     st.markdown("---")
     clear_btn = st.button("🗑️ 인덱스/대화 초기화")
-
-    st.markdown("---")
-    st.markdown("### 🚀 배포 링크")
-    _deploy_link = load_deploy_link()
-    if _deploy_link:
-        st.markdown(f"[{_deploy_link}]({_deploy_link})")
-    else:
-        st.caption("배포 후 루트의 DEPLOY_LINK.txt 또는 환경변수 STREAMLIT_DEPLOY_URL 에 링크를 설정하면 표시됩니다.")
 
 
 # ----------------------------
